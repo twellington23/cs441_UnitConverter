@@ -1,2 +1,2 @@
 # cs441_UnitConverter
-  This is an Android app used to determine how many months of a subscription service someone can afford can afford. This was achieved by 
+This is an Android application used to determine how many months of a subscription service someone can afford can afford. This was achieved by using the Basic Activity template in Android Studio, as well as a few other Android Studio widgets. The two most crucial widgets here are the Spinner and EditText. The EditText widegt allows the user to manually enter data, and the Spinner allows the user to select an item from a drop down menu. The data provided by the user in both of these widgets is used to make the proper conversion.
