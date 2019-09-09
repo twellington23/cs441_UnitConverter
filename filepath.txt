@@ -1,0 +1,58 @@
+commit d5fdd4592b9d5b7bcc09a470d64afb2197020e62
+Author: Tyler Wellington <tylerwellington@tylers-mbp.home>
+Date:   Sun Sep 8 22:57:13 2019 -0400
+
+    added unit converter files
+
+ UnitConverter_CS441/.gitignore                     |  14 ++
+ UnitConverter_CS441/.idea/codeStyles/Project.xml   | 116 ++++++++++++++
+ .../.idea/dictionaries/tylerwellington.xml         |   8 +
+ UnitConverter_CS441/.idea/gradle.xml               |  16 ++
+ UnitConverter_CS441/.idea/misc.xml                 |   9 ++
+ UnitConverter_CS441/.idea/runConfigurations.xml    |  12 ++
+ UnitConverter_CS441/app/.gitignore                 |   1 +
+ UnitConverter_CS441/app/build.gradle               |  30 ++++
+ UnitConverter_CS441/app/proguard-rules.pro         |  21 +++
+ .../ExampleInstrumentedTest.java                   |  27 ++++
+ .../app/src/main/AndroidManifest.xml               |  24 +++
+ .../com/example/unitconverter_cs441/Converter.java |  69 +++++++++
+ .../example/unitconverter_cs441/MainActivity.java  |  98 ++++++++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ .../app/src/main/res/layout/activity_main.xml      |  33 ++++
+ .../app/src/main/res/layout/content_main.xml       | 125 +++++++++++++++
+ .../app/src/main/res/menu/menu_main.xml            |  10 ++
+ .../src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ .../app/src/main/res/mipmap-hdpi/ic_launcher.png   | Bin 0 -> 2963 bytes
+ .../src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ .../app/src/main/res/mipmap-mdpi/ic_launcher.png   | Bin 0 -> 2060 bytes
+ .../src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ .../app/src/main/res/mipmap-xhdpi/ic_launcher.png  | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ .../app/src/main/res/mipmap-xxhdpi/ic_launcher.png | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ .../src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ .../app/src/main/res/values/colors.xml             |   6 +
+ .../app/src/main/res/values/dimens.xml             |   3 +
+ .../app/src/main/res/values/strings.xml            |  11 ++
+ .../app/src/main/res/values/styles.xml             |  20 +++
+ .../unitconverter_cs441/ExampleUnitTest.java       |  17 ++
+ UnitConverter_CS441/build.gradle                   |  27 ++++
+ UnitConverter_CS441/gradle.properties              |  20 +++
+ .../gradle/wrapper/gradle-wrapper.jar              | Bin 0 -> 54329 bytes
+ .../gradle/wrapper/gradle-wrapper.properties       |   6 +
+ UnitConverter_CS441/gradlew                        | 172 +++++++++++++++++++++
+ UnitConverter_CS441/gradlew.bat                    |  84 ++++++++++
+ UnitConverter_CS441/settings.gradle                |   2 +
+ 42 files changed, 1195 insertions(+)
+
+commit 198c0c5cf83c3eff4fe7ce1970d6dc853b38fb7c
+Author: twellington23 <42653953+twellington23@users.noreply.github.com>
+Date:   Sun Sep 8 22:36:39 2019 -0400
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
