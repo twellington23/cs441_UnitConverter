@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UnitConverter_CS441</string>
+    <string name="action_settings">Settings</string>
+    <string name="you_can_afford">You can afford</string>
+    <string name="num_months"> </string>
+    <string name="months_you_need">months. You need $</string>
+    <string name="funds_needed"> </string>
+    <string name="subscription_service">Subscription Service:</string>
+    <string name="for_an_extra_month">for an extra month.</string>
+    <string name="your_budget">Your Budget: $</string>
+</resources>
